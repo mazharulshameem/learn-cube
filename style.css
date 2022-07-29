@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.carousel-caption{
+  bottom: 100px;
+  z-index: 2;
+}
+.carousel-caption h5{
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p{
+  font-size: 18px;
+  width: 60%;
+  margin: auto;
+  line-height: 1.9;
+}
+.carousel-inner::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 1; 
+} 
